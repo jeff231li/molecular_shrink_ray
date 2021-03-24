@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libMSFPlugin.so -o libMSFPlugin.so CMakeFiles/MSFPlugin.dir/openmmapi/src/ShrinkForce.cpp.o CMakeFiles/MSFPlugin.dir/openmmapi/src/ShrinkForceImpl.cpp.o  -L/usr/local/openmm/lib  -L/usr/local/openmm/lib/plugins -Wl,-rpath,/usr/local/openmm/lib:/usr/local/openmm/lib/plugins: -lOpenMM 

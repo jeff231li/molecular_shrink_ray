@@ -1,0 +1,4 @@
+#include "CudaMSFKernelSources.h"
+
+using namespace MSFPlugin;
+using namespace std;
